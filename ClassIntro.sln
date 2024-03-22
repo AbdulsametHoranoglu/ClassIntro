@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34607.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consol", "Consol\Consol.csproj", "{3526FC1B-8D2E-4385-B749-4437FA992035}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consol", "Consol\Consol.csproj", "{3526FC1B-8D2E-4385-B749-4437FA992035}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{82B3187A-DA2D-4A50-90B5-15BA67258BBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{82B3187A-DA2D-4A50-90B5-15BA67258BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{BB1FB92F-E1EE-4E71-92EC-17DB6872064C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{BB1FB92F-E1EE-4E71-92EC-17DB6872064C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferans", "DegerVeReferans\DegerVeReferans.csproj", "{18D1241D-E6A1-4A17-B797-40DFE48F80F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferans", "DegerVeReferans\DegerVeReferans.csproj", "{18D1241D-E6A1-4A17-B797-40DFE48F80F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{675DF8E5-6537-4492-AB60-BCBF45FA64B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{C3292079-8DF8-46F2-B61C-FDF83DAB8546}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{3970CB90-B8B8-4878-A729-21DCC96FD486}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oop2", "Oop2\Oop2.csproj", "{53A7A0C0-EE47-4614-8CB2-5103C49B578F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3(Dependency İnjection)", "OOP3\OOP3(Dependency İnjection).csproj", "{F26E85AD-258D-4B96-8AA4-F71F88133B34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{18D1241D-E6A1-4A17-B797-40DFE48F80F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18D1241D-E6A1-4A17-B797-40DFE48F80F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18D1241D-E6A1-4A17-B797-40DFE48F80F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675DF8E5-6537-4492-AB60-BCBF45FA64B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675DF8E5-6537-4492-AB60-BCBF45FA64B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675DF8E5-6537-4492-AB60-BCBF45FA64B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675DF8E5-6537-4492-AB60-BCBF45FA64B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3292079-8DF8-46F2-B61C-FDF83DAB8546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3292079-8DF8-46F2-B61C-FDF83DAB8546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3292079-8DF8-46F2-B61C-FDF83DAB8546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3292079-8DF8-46F2-B61C-FDF83DAB8546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3970CB90-B8B8-4878-A729-21DCC96FD486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3970CB90-B8B8-4878-A729-21DCC96FD486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3970CB90-B8B8-4878-A729-21DCC96FD486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3970CB90-B8B8-4878-A729-21DCC96FD486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A7A0C0-EE47-4614-8CB2-5103C49B578F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A7A0C0-EE47-4614-8CB2-5103C49B578F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A7A0C0-EE47-4614-8CB2-5103C49B578F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A7A0C0-EE47-4614-8CB2-5103C49B578F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26E85AD-258D-4B96-8AA4-F71F88133B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26E85AD-258D-4B96-8AA4-F71F88133B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26E85AD-258D-4B96-8AA4-F71F88133B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26E85AD-258D-4B96-8AA4-F71F88133B34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
