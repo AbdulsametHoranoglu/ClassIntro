@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-//Reflection ile çalışma anındayani uygulama çalışırken ve çalıştığınız herhangi bir nesnenin hakkinda bilgi toplayabilir 
+//Reflection ile çalışma anında yani uygulama çalışırken ve çalıştığınız herhangi bir nesnenin hakkinda bilgi toplayabilir 
 //ve hatta bu topladığınız bilgiye göre de bu nesneyi istediğimiz zamn örneğin bir metodunu çalıştırabiliriz çalışma anında
 
 
